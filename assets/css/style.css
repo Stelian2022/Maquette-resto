@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "montserrat";
+  src: url(../font/Montserrat-VariableFont_wght.ttf);
+}
+nav {
+  /* background-color: rgb(193, 149, 229);
+  color: rgb(165, 42, 42);
+  border: 5px blue solid;
+  border-radius: 38px 38px 38px 38px;
+  -webkit-border-radius: 38px 38px 38px 38px;
+  -moz-border-radius: 38px 38px 38px 38px; */
+  font-size: 0.9rem;
+  font-weight: bold;
+  font-family: "montserrat";
+  font-style: oblique;
+  text-decoration: underline;
+  letter-spacing: 0.09rem;
+}
+#blockTest {
+    display: inline-block;
+  background-color: chocolate;
+  width: 100px;
+  height: 100px;
+}
+#blockTest2 {
+
+display: inline-block;
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+}
+
