@@ -2,31 +2,107 @@
   font-family: "montserrat";
   src: url(../font/Montserrat-VariableFont_wght.ttf);
 }
+*{
+  font-family: "montserrat";
+}
+body{
+  margin: 0%;
+}
 nav {
-  /* background-color: rgb(193, 149, 229);
-  color: rgb(165, 42, 42);
-  border: 5px blue solid;
-  border-radius: 38px 38px 38px 38px;
-  -webkit-border-radius: 38px 38px 38px 38px;
-  -moz-border-radius: 38px 38px 38px 38px; */
-  font-size: 0.9rem;
+ 
+  font-size: 1rem;
   font-weight: bold;
   font-family: "montserrat";
-  font-style: oblique;
-  text-decoration: underline;
-  letter-spacing: 0.09rem;
+  /* font-style: oblique; */
+  /* text-decoration: underline; */
+  letter-spacing: 0.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-#blockTest {
-    display: inline-block;
-  background-color: chocolate;
-  width: 100px;
-  height: 100px;
+#brand{
+  padding-left: 0.5rem;
 }
-#blockTest2 {
+#menu{
+  display: flex;
+  list-style-type: none;
+  font-size: 1rem;
+  
+}
+#menu li{
+  /* background-color: chartreuse; */
+  padding: 0.5rem;
+  /* margin: 0.5rem; */
+}
 
-display: inline-block;
-  background-color: aqua;
-  width: 100px;
-  height: 100px;
+#imgHeader{
+  background-image: url(../img/hamburger.jpg);
+  height: 65vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: flex-end;
+  display: flex;
+
+
+}
+h1{
+  font-family: "montserrat";
+  color: #545a5d;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 100;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+
+}
+#about{
+  width: 65%;
+  /* border: 1px green solid; */
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  
+
+ 
+}
+
+/* .est le symbol des classes css */
+.card{
+  width: 47%;
+  /* border: 1px red solid; */
+}
+.image{
+  width: 100%;
+}
+#about h2{
+  text-align: center;
+}
+#about h3{
+  text-align: center;
+  font-size: 0.7rem;
+
+}
+
+#menu2{
+  width: 65%;
+  /* border: 1px green solid; */
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  
+}
+#menu2 h3{
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+}
+
+p{
+  font-size: 0.7rem;
+
 }
 
