@@ -94,3 +94,31 @@ h1 {
 p {
   font-size: 0.7rem;
 }
+
+/* section contact */
+#contact {
+  width: 65%;
+  /* border: 1px green solid; */
+  margin: auto;
+  margin-top: 2rem;
+}
+
+#contact input {
+  padding: 1rem 0.5rem;
+
+  width: 100%;
+
+  border: none;
+
+  border-bottom: 1px grey solid;
+  margin-bottom: 0.5rem;
+}
+#contact #send {
+  border-bottom: none;
+  width: fit-content;
+}
+
+#contact h3{
+  color: blue;
+ font-size: 0.8rem;
+}
