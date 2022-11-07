@@ -75,7 +75,7 @@ h1 {
   text-align: center;
   font-size: 0.7rem;
 }
-
+/* our menu section */
 #menu2 {
   width: 65%;
   /* border: 1px green solid; */
@@ -112,13 +112,17 @@ p {
 
   border-bottom: 1px grey solid;
   margin-bottom: 0.5rem;
+  height: 1cm;
 }
+
+/* button SEND  */
 #contact #send {
   border-bottom: none;
   width: fit-content;
 }
 
-#contact h3{
-  color: blue;
- font-size: 0.8rem;
+#contact h3 {
+  color: #34b7d4;
+  font-size: 1rem;
+  font-family: "montserrat";
 }
